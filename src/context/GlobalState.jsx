@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 import { createContext, useEffect, useReducer } from 'react';
 import { TYPES } from '../actions/appActions';
-import appReducer from '../reducers/AppReducer';
+import appReducer from '../reducers/appReducer';
 
 export const Context = createContext();
 
