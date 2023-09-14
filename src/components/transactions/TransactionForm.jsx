@@ -37,6 +37,7 @@ const TransactionForm = () => {
           value={form.descripcion}
           name="descripcion"
           onChange={handleChange}
+          className="bg-zinc-700 text-white p-3 rounded-lg block mb-2 w-full"
         />
         <input
           type="number"
@@ -45,9 +46,15 @@ const TransactionForm = () => {
           value={form.cantidad}
           name="cantidad"
           onChange={handleChange}
+          className="bg-zinc-700 text-white p-3 rounded-lg block mb-2 w-full"
         />
 
-        <button type="submit">Agregar </button>
+        <button
+          type="submit"
+          className="bg-lime-500 text-zinc-900 p-3 rounded-lg block mb-2 w-full"
+        >
+          Agregar
+        </button>
       </form>
     </div>
   );
